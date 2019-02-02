@@ -52,19 +52,7 @@ int main(int argc, string argv[])
                   {
                     printf("%c", ((((pt[i] + key[j]) - 162) % 26) + 65));
                   }
-                }
-        }
-            
-        
-      }
-
-              
-                    
-                    
-                    
-                    
-                    
-                    
+                
                 {
                   printf("%c", ((((pt[i] + key[j]) - 130) % 26) + ));
                 }
@@ -90,3 +78,68 @@ int main(int argc, string argv[])
         }
     }
 }
+
+
+while(
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+while ( n = strlen(pt) % strlen(key) )
+  
+ 
+  
+for (int i = 0; i < strlen(pt); i++)
+  {
+    int n = i % strlen(key);
+    
+    
+      if (isalpha (pt[i]))
+            {
+                if (isupper (pt[i]))
+                {
+                  if (isupper (key[j]))
+                  {
+                     printf("%c", ((((pt[i] + key[j]) - 130) % 26) + 65));
+                  }
+                  else
+                  {
+                    printf("%c", ((((pt[i] + key[j]) - 162) % 26) + 65));
+                  }
+                }
+                else
+                {
+                  if (isupper (key[j]))
+                  {
+                     printf("%c", ((((pt[i] + key[j]) - 162) % 26) + 97));
+                  }
+                  else
+                  {
+                    printf("%c", ((((pt[i] + key[j]) - 194) % 26) + 97));
+                  }
+                }
+            }
+            else
+            {
+              printf("%c", pt[i]);
+            }
+  }
+      
+
+
+
+
+
+
+
+
+
+
+
