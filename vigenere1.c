@@ -10,14 +10,14 @@ int main(int argc, string argv[])
   {
     string key = argv[1];
     
-    for (int i=0; i <strlen(key); i++)
+    for (int i = 0; i < strlen(s); i++)
     {
-      if (!isalpha(key[i])
-        {        
-          printf("ur key is not valid");
-          error 2;
+        if (isalpha(s[i]) == false)
+        {
+            printf("Try Again\n");
+            return 1;
         }
-     }
+    }
         printf("your plaintext: ");
         string pt = get_string();
         int counter = 0;  
