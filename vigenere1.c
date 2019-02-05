@@ -10,9 +10,9 @@ int main(int argc, string argv[])
   {
     string key = argv[1];
     
-    for (int i = 0; i < strlen(s); i++)
+    for (int i = 0; i < strlen(key); i++)
     {
-        if (isalpha(s[i]) == false)
+        if (isalpha(key[i]) == false)
         {
             printf("Try Again\n");
             return 1;
